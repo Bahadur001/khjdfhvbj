@@ -1,32 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: teal;
+}
+
 table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  th, td {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-  th {
-    background-color: #f2f2f2;
-  }
+  width: 1200px;
+  max-width: 95%;
+  margin: 0 auto;
+}
 
-  tr button {
-    width: 20px;
-    height: 20px;
-    background-color: rgb(211, 208, 208);
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+}
 
-  }
-  tr button:hover{
-    background-color: red;
+button {
+  padding: 6px 12px;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+}
 
-  }
-  #onbutton{
-    width: 50px;
-  }
-  #offbutton{
-    width: 100px;
-  }
-  body{
-    background-color: rgb(2, 193, 132);
-  }
+.addBtn {
+  background-color: lime;
+  font-size: 18px;
+}
+
+.saveBtn {
+  background-color: rgb(255, 213, 0);
+  margin-right: 10px;
+}
+
+.cancelBtn {
+  background-color: rgb(255, 34, 0);
+}
+
+input {
+  outline: 0;
+  padding: 6px;
+}
